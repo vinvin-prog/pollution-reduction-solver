@@ -1,0 +1,11 @@
+PollutantID,Pollutants,TargetMinimum
+1,CO2,1000
+2,NOx,35
+3,SO2,25
+4,PM2.5,20
+5,CH4,60
+6,VOC,45
+7,CO,80
+8,NH3,12
+9,BC,6
+10,N2O,10

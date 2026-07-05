@@ -1,0 +1,31 @@
+ProjectID,ProjectName,maxUnit,CO2,NOx,SO2,PM2.5,CH4,VOC,CO,NH3,BC,N2O,Cost
+1,Large Solar Park,20,60,0,0,0,0,0,0,0,0,0,4000
+2,Small Solar Installations,20,18,0,0,0,0,0,0,0,0,0,1200
+3,Wind Farm,20,55,0,0,0,0,0,0,0,0,0,3800
+4,Gas-to-renewables conversion,20,25,1,0.2,0.1,1.5,0.5,2,0.05,0.01,0.3,3200
+5,Boiler Retrofit,20,20,0.9,0.4,0.2,0.1,0.05,1.2,0.02,0.01,0.05,1400
+6,Catalytic Converters for Buses,20,30,2.8,0.6,0.8,0,0.5,5,0.01,0.05,0.02,2600
+7,Diesel Bus Replacement,20,48,3.2,0.9,1,0,0.7,6,0.02,0.08,0.03,5000
+8,Traffic Signal/Flow Upgrade,20,12,0.6,0.1,0.4,0.05,0.2,3,0.02,0.02,0.01,1000
+9,Low-Emission Stove Program,20,2,0.02,0.01,0.7,0,0.01,1.5,0.03,0.2,0,180
+10,Residential Insulation/Efficiency,20,15,0.1,0.05,0.05,0.02,0.02,0.5,0,0,0.01,900
+11,Industrial Scrubbers,20,6,0.4,6,0.4,0,0.1,0.6,0.01,0.01,0,4200
+12,Waste Methane Capture System,20,28,0.2,0.1,0.05,8,0.2,0.1,0,0,0.05,3600
+13,Landfill Gas-to-energy,20,24,0.15,0.05,0.03,6.5,0.1,0.05,0,0,0.03,3400
+14,Reforestation (acre-package),20,3.5,0.04,0.02,0.01,0.8,0.03,0.1,0.01,0.005,0.005,220
+15,Urban Tree Canopy Program (street trees),20,4.2,0.06,0.01,0.03,0.6,0.02,0.15,0.005,0.02,0.002,300
+16,Industrial Energy Efficiency Retrofit,20,22,0.5,0.3,0.15,0.2,0.1,1,0.01,0.01,0.03,1600
+17,Natural Gas Leak Repair,20,10,0.05,0.01,0.01,4,0.02,0.02,0,0,0.01,1800
+18,Agricultural Methane Reduction,20,8,0.02,0.01,0.02,7.2,0.05,0.02,0.1,0,0.05,2800
+19,Clean Cookstove & Fuel Switching (community scale),20,3.2,0.04,0.02,0.9,0.1,0.02,2,0.05,0.25,0,450
+20,Rail Electrification,20,80,2,0.4,1.2,0,0.6,10,0.02,0.1,0.05,6000
+21,EV Charging Infrastructure,20,20,0.3,0.05,0.1,0,0.05,0.5,0.01,0.01,0.01,2200
+22,Biochar for soils (per project unit),20,6,0.01,0,0.01,2.5,0.01,0.01,0.2,0,0.02,1400
+23,Industrial VOC,20,2,0.01,0,0,0,6.5,0.1,0,0,0,2600
+24,Heavy-Duty Truck Retrofit,20,36,2.2,0.6,0.6,0,0.3,4.2,0.01,0.04,0.02,4200
+25,Port/Harbor Electrification,20,28,1.9,0.8,0.7,0,0.2,3.6,0.01,0.03,0.02,4800
+26,Black Carbon reduction,20,1.8,0.02,0.01,0.6,0.05,0.01,1,0.02,0.9,0,600
+27,Wetlands restoration,20,10,0.03,0.02,0.02,3.2,0.01,0.05,0.15,0.02,0.04,1800
+28,Household LPG coversion program,20,2.5,0.03,0.01,0.4,0.05,0.02,1.2,0.03,0.1,0,700
+29,Industrial process change,20,3,0.02,0.01,0,0,0,0,0,0,1.5,5000
+30,Behavioral demand-reduction program,20,9,0.4,0.05,0.05,0.01,0.3,2.5,0.01,0.01,0.01,400
