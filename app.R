@@ -2,7 +2,7 @@ library(shiny)
 library(shinydashboard)
 
 # "importing"/loading of the Simplex function file
-source("SimplexMinimization.R")
+source("simplex_minimization.R")
 
 # Load data
 # Read CSV files para sa projects at targets
@@ -554,7 +554,7 @@ server <- function(input, output, session) {
     
     # For column names y_CO2 to y_N2O, x1 to xn, y1 to yn, Z, Solution (where n = number of inputs)
     pollutant_vars <- c()
-    for (i in 1:length(pollutants_name)) {
+    for (i in seq_along(pollutants_name)) {
       pollutant_vars <- c(pollutant_vars, paste0("S", i))
     }
     maxUnit_vars <- paste0("x", sel$ProjectID) # for column name ng maxUnit constraint
@@ -629,7 +629,6 @@ server <- function(input, output, session) {
       # Create a list of collapsible panels, one for each iteration
       panels <- lapply(seq_along(iterations), function(i) {
         
-        current_iteration <- iterations[[i]] # get data for this iteration
         panel_id <- paste0("iter", i) # unique ID for collapse panel
         table_id <- paste0("table_", i) # unique id for tableau table output
         basic_id <- paste0("basic_", i) # unique id for basic solution table output
